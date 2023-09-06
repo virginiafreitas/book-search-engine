@@ -29,7 +29,7 @@ INSTRUCTIONS:
         - Schemas directory:
         - index.js: Export your typeDefs and resolvers. --done
         - resolvers.js: Define the query and mutation functionality to work with the Mongoose models. Hint: Use the functionality in the user-controller.js as a guide. --done 
-        - typeDefs.js: Define the necessary Query and Mutation types:
+        - typeDefs.js: Define the necessary Query and Mutation types: --done
                 Query type:
                         me: Which returns a User type.
                 Mutation type:
