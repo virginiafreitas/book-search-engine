@@ -1,20 +1,70 @@
-AS AN avid reader I WANT to search for new books to read SO THAT I can keep a list of books to purchase
+# Book Search Engine
+  [![GitHub License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-GIVEN a book search engine
-WHEN I load the search engine THEN I am presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
-WHEN I click on the Search for Books menu option THEN I am presented with an input field to search for books and a submit button
-WHEN I am not logged in and enter a search term in the input field and click the submit button THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site
-WHEN I click on the Login/Signup menu option THEN a modal appears on the screen with a toggle between the option to log in or sign up
-WHEN the toggle is set to Signup THEN I am presented with three inputs for a username, an email address, and a password, and a signup button
-WHEN the toggle is set to Login THEN I am presented with two inputs for an email address and a password and login button
-WHEN I enter a valid email address and create a password and click on the signup button THEN my user account is created and I am logged in to the site
-WHEN I enter my account’s email address and password and click on the login button THEN I the modal closes and I am logged in to the site
-WHEN I am logged in to the site THEN the menu options change to Search for Books, an option to see my saved books, and Logout
-WHEN I am logged in and enter a search term in the input field and click the submit button THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site and a button to save a book to my account
-WHEN I click on the Save button on a book THEN that book’s information is saved to my account
-WHEN I click on the option to see my saved books THEN I am presented with all of the books I have saved to my account, each featuring the book’s title, author, description, image, and a link to that book on the Google Books site and a button to remove a book from my account
-WHEN I click on the Remove button on a book THEN that book is deleted from my saved books list
-WHEN I click on the Logout button THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
+  ### Table of Content
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Developer Information](#developer-information)
+  * [License](#license)
+
+  ### Description:
+  The project is an assignment of a coding bootcamp program, with the purpose for students learn how to use MERN stack, MongoDB, Express.js and Node.js. The application is a platform where users can search for books and add or delete their favorites to a list.
+
+  ### Installation:
+  - Clone the initial code git repository.
+  - Navigate on the terminal to the directory book-search-engine where the code was cloned to.
+  - Type "npm i" and "npm start".
+  - Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
+  - Modify the existing authentication middleware so that it works in the context of a GraphQL API.
+  - Create an Apollo Provider so that requests can communicate with an Apollo Server.
+  - Deploy the application to Heroku.
+
+  ### Usage:
+  [Click here](https://) to access the deployed application. GIVEN a book search engine:
+  - WHEN I load the search engine THEN I am presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
+  - WHEN I click on the Search for Books menu option THEN I am presented with an input field to search for books and a submit button
+  ![screenshot](./images/homepage.png)
+  - WHEN I am not logged in and enter a search term in the input field and click the submit button THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site
+  - WHEN I click on the Login/Signup menu option THEN a modal appears on the screen with a toggle between the option to log in or sign up
+  - WHEN the toggle is set to Signup THEN I am presented with three inputs for a username, an email address, and a password, and a signup button
+  - WHEN the toggle is set to Login THEN I am presented with two inputs for an email address and a password and login button
+  - WHEN I enter a valid email address and create a password and click on the signup button THEN my user account is created and I am logged in to the site
+  - WHEN I enter my account’s email address and password and click on the login button THEN I the modal closes and I am logged in to the site
+  - WHEN I am logged in to the site THEN the menu options change to Search for Books, an option to see my saved books, and Logout
+  - WHEN I am logged in and enter a search term in the input field and click the submit button THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site and a button to save a book to my account
+  ![screenshot](./images/saved-books.png)
+  - WHEN I click on the Save button on a book THEN that book’s information is saved to my account
+  - WHEN I click on the option to see my saved books THEN I am presented with all of the books I have saved to my account, each featuring the book’s title, author, description, image, and a link to that book on the Google Books site and a button to remove a book from my account
+  - WHEN I click on the Remove button on a book THEN that book is deleted from my saved books list
+  ![screenshot](./images/delete-list.png)
+  - WHEN I click on the Logout button THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
+
+  ### Contributing
+  I have received advice from the UC Berkeley Extension tutor Matthew Calimbas on debugging and testing my code. I also reached out to the [Mozilla Developer](https://developer.mozilla.org/en-US/) webpage and [NPM Docs](https://docs.npmjs.com/) for documentation.
+
+  ### Developer Information:
+  - Virginia Freitas
+  - GitHub URL: https://github.com/virginiafreitas
+  - e-mail address: virginiacdefreitas@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 INSTRUCTIONS:
 - Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
